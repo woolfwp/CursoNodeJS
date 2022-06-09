@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/woolfwp/CursoNodeJS/issues"
   },
-  "homepage": "https://github.com/woolfwp/CursoNodeJS#readme"
+  "homepage": "https://github.com/woolfwp/CursoNodeJS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
