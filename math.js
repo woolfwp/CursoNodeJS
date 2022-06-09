@@ -1,3 +1,5 @@
+const Math = {};
+
 function add(x1, x2){
     return x1 + x2;
 }
@@ -18,7 +20,10 @@ function divide(x1, x2){
     }
 }
 
-exports.add = add;
-exports.sustract = sustract;
-exports.multiply = multiply;
-exports.divide = divide;
+Math.add = add;
+Math.sustract = sustract;
+Math.multiply = multiply;
+Math.divide = divide;
+
+module.exports = Math;
+
