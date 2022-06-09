@@ -1,15 +1,21 @@
-function add(){
-
+function add(x1, x2){
+    return x1 + x2;
 }
 
-function sustract(){
-
+function sustract(x1,x1){
+    return x1 - x2;
 }
 
-function multiply(){
-
+function multiply(x1, x2){
+    return x1 * x2;
 }
 
-function divide(){
-    
+function divide(x1, x2){
+    if(x2 == 0){
+        console.log("No se puede dividir por 0");
+    }else{
+        return x1 / x2;
+    }
 }
+
+console.log(add(1,2));
