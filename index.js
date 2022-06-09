@@ -21,8 +21,7 @@ const express = require('express');
 const server = express();
 
 server.get('/', (req,res) =>{
-    res.writeHead(200, {'content-type': 'text/html'});
-    res.write('<h1>Hola Mundo</h1>');
+    res.send('<h1>Hola Mundo</h1>');
     res.end();
 })
 
