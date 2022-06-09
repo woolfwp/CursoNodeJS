@@ -1,5 +1,29 @@
 {
   "dependencies": {
     "colors": "^1.4.0"
-  }
+  },
+  "name": "cursonodejs",
+  "version": "0.0.1",
+  "description": "curso de nodejs",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woolfwp/CursoNodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "curso",
+    "español",
+    "practico"
+  ],
+  "author": "Sebastian Gomez (woolfwp)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woolfwp/CursoNodeJS/issues"
+  },
+  "homepage": "https://github.com/woolfwp/CursoNodeJS#readme"
 }
