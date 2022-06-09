@@ -1,6 +1,6 @@
-const math = require('./math.js');
+const os = require('os');
 
-console.log('Suma igual a: '+ math.add(1,2));
-console.log('Resta igual a: '+math.sustract(1,2));
-console.log('multiply igual a: '+math.multiply(1,2));
-console.log('divide igual a: '+math.divide(1,2));
+console.log(os.platform());
+console.log(os.release());
+console.log('free mem: ',os.freemem());
+console.log('total mem: ',os.totalmem());
